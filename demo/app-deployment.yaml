@@ -14,7 +14,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: crccheck/hello-world:latest
+      - image: crccheck/hello-world:v1.0.0
         name: demo-app
         ports:
         - containerPort: 80
